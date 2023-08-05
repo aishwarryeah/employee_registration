@@ -27,6 +27,6 @@ jobs:
       runs-on: self-hosted
 
       steps:
-        - name: war file
+        - name: deploy
           run: sudo cp /home/aishwarya/actionrunner/_work/employee_registration/employee_registration/target/employee_registration-2.2-SNAPSHOT.war /opt/tomcat/webapps    
 
